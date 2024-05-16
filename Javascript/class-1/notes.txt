@@ -1,0 +1,9 @@
+//variable can able to stotre the data.
+
+//stntax: var , let and const.
+
+recomended --> let , const .
+
+java script is a case sensitive
+
+let second num = 100 ;(secondspace does not allow while declaring variable)
