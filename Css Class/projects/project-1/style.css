@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Briem Hand", cursive; */
+}
+
+
+body {
+  background-color:#1E456C;
+  background-image: url("https://akshitphotography.com/wp-content/uploads/2021/08/Nature-Photography-105.jpg")
+}
+
+
+
+
+
+.content_box {
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+
+
+  border-radius: 8px;
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 100px #18dde9;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sub_title {
+  font-size: 20px;
+}
+
+.form_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline-color: brown;
+}
+
+textarea:focus {
+  outline-color: brown;
+}
+
+.text_area_control {
+  display: grid;
+  grid-column: 1 / span 2;
+}
+
+.button_container {
+  display: flex;
+  justify-content: end;
+}
+
+button {
+  background-color: blue;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: brown;
+  transition: .5s ease-in-out;
+}

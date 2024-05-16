@@ -1,0 +1,91 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body{
+  font-family: system-ui;
+  width: 90%;
+  margin-inline: auto;
+  
+
+}
+
+img{
+  height: 70px;
+  display: block;
+
+  
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+  margin-top: 5rem;
+ 
+}
+.box1{
+  height: 200px;
+  width: 200px;
+  font-size: 10px;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2rem;
+  text-align: center;
+  margin: 0% auto;
+  transition: .5s ease-in-out;
+  animation-name: move;
+}
+
+.box2{
+  height: 200px;
+  width: 200px;
+  font-size: 10px;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2rem;
+  margin: 0auto;
+  text-align: center;
+}
+
+.box3{
+  height: 200px;
+  width: 200px;
+  font-size: 10px;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.box4{
+  height: 200px;
+  width: 200px;
+  font-size: 10px;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2rem;
+  text-align: center;
+}
+#box{
+   animation-name: move;
+}
+
+.box1:hover{
+  
+  transform: scale(2);
+}
+
+@keyframes move {
+  from {
+    transform: translateY(700px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
