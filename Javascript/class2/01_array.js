@@ -6,35 +6,49 @@
 
 //How to creat an array
 
-let numArray = [1,4,6,3,8,9];
-console.log(numArray);
-console.log(typeof numArray);
+let numArray = [1, 2, 3, 45, 10];
+console.log(numArray); // [1,2,3,45,10]
+console.log(typeof numArray); // array
 
-let randomArray = ["Rudra",43,"Badal",65];
+let nums = 100;
+let chars = "Pramod";
+
+let arrayStore = [nums, chars];
+console.log(arrayStore);
+
+let randomArray = ["Pramod", "Ramesh", "Peeyush", 25];
 console.log(randomArray);
 
-//Accessing the elements :
+//Accessing elements :
 
-console.log(randomArray.length);
+console.log(randomArray.length); // 4
+console.log(randomArray[0]);
+
+//in optimized way
+
+//Print me the last value of randomArray
 console.log(randomArray[3]);
-
-// in optimised way
-
 console.log(randomArray[randomArray.length - 1]);
 
-//modifying the element
+//Modifying the element :
 
-randomArray[2]='Param';
+randomArray[1] = "Suresh";
 console.log(randomArray);
 
+//Array Methods :
 
-//Array Methode :
-//Push Methode :
+//Push method :
+//The push() method adds one or more elements to the end of an array and returns the new length of the array.
 
-let bikes= ["pulsar","Ninja","KTM","Harley","Triumph"];
-bikes.push("Beneli");
+let bikes = ["Pulsar", "Ninja", "KTM", "Harley", "Triumph"];
 console.log(bikes);
 
-//Pop
-bikes.pop();
+bikes.push("Beneli","Audi");
+console.log(bikes);
+
+// Pop method :
+// The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+
+console.log(bikes.pop()); // Triumph
+console.log(bikes.pop()); // Beneli
 console.log(bikes);
