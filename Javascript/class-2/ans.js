@@ -1,11 +1,15 @@
 // ## Questions ?
 
 // - //todo? Print your birthday in the console using the Date object.
-// let Bdate = "28-12-2001";
-// console.log(new Date("12-28-2001"));
+let BDate = "28-12-2001";
+console.log(new Date("12-28-2001"));
+
+
 // - //todo? Print the current time in the console using the Date object.
 let myDate = new Date();
 console.log(myDate.toTimeString());
+
+
 // - //todo? Print your current age in the console using the Date object.
 
 let Bdate = new Date(28 - 12 - 2001);
@@ -38,10 +42,10 @@ console.log(numbers); //[1, 2, 3, 4]
 
 // ```js
 // Q: What will the following code output?
-// let colors = ["red", "green", "blue"];
-// colors.push("yellow");
-// colors.pop();
-// console.log(colors);   
+let colors = ["red", "green", "blue"];
+colors.push("yellow");
+colors.pop();
+console.log(colors);   
 
 // ANS : ["red", "green", "blue"];
 // ```
@@ -54,13 +58,13 @@ console.log(fruits);
 
 // ```js
 // Q: What will be the result of the following code?
-// let Stack = [];
-// Stack.push(1);
-// Stack.push(2);
-// Stack.push(3);
-// Stack.pop();
-// Stack.pop();
-// console.log(Stack);
+let Stack = [];
+Stack.push(1);
+Stack.push(2);
+Stack.push(3);
+Stack.pop();
+Stack.pop();
+console.log(Stack);
 
 // ANS : [1]
 

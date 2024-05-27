@@ -52,3 +52,19 @@ console.log(bikes);
 console.log(bikes.pop()); // Triumph
 console.log(bikes.pop()); // Beneli
 console.log(bikes);
+
+// Slice method :
+// The slice() method extracts a part of an array and returns the extracted part in a new array.
+
+console.log(bikes.slice(1, 3)); // Output : ["Ninja", "KTM"]
+console.log(bikes.slice(0, 4)); // 1st index will include and last index won't include
+
+// Splice method :
+// The splice() method adds/removes items to/from an array, and returns the removed item(s).
+
+console.log(bikes.splice(0,4));  // start: the index at which you need to change the array
+// deleteCount : The numbers you want to delete/extracts
+// end: the index at which you need to stop changing the array
+
+console.log(bikes.splice(0, 3));
+console.log(bikes.splice(1, 4));
