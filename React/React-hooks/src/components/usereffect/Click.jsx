@@ -20,7 +20,7 @@ const Click = () => {
   function countClick() {
     setCount((prev) => prev + 1);
   }
-  console.log(count);
+  
 
   return (
     <div>
