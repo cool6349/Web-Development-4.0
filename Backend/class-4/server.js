@@ -1,12 +1,14 @@
+//import for module
+
 const express = require("express");
 require("dotenv").config();
 const mongoose = require("mongoose");
 
-//server
+// create server
 const app = express();
 
 //middlewares
-app.use(express.json());
+app.use(express.json());  //
 
 //schema
 const studentSchema = new mongoose.Schema({

@@ -26,7 +26,7 @@ function randomColorGenerator() {
 // console.log(randomColorGenerator());
 
 function colorChange(e) {
-  //   console.log(e.target.id);
+    // console.log(e.target.id);
 
   switch (e.target.id) {
     case "grey":
